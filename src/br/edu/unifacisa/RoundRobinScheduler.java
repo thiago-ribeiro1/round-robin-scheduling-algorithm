@@ -5,7 +5,6 @@ import java.util.*;
 public class RoundRobinScheduler {
 
     public static RoundRobinResult compute(List<Proc> input, int quantum) {
-        //if (quantum <= 0) throw new IllegalArgumentException("Quantum deve ser > 0");
 
         // Cria um mapa de processos para preservar a ordem de inserção
         Map<String, Proc> map = new LinkedHashMap<>();
@@ -42,7 +41,7 @@ public class RoundRobinScheduler {
             // Se o processo ainda não terminou, volta para o fim da fila
             if (p.remaining > 0) ready.offer(p);
 
-            // Se terminou, salva o tempo de conclusão
+                // Se terminou, salva o tempo de conclusão
             else p.completion = t;
         }
         // Retorna o resultado da simulação (passos + mapa de processos)

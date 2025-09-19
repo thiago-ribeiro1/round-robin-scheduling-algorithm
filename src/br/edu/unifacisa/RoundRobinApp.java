@@ -53,9 +53,9 @@ public class RoundRobinApp extends JFrame {
         JPanel configPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 10, 5));
         configPanel.add(new JLabel("Quantum:"));
         quantumField.setHorizontalAlignment(JTextField.CENTER);
-        quantumField.setEditable(false); // quantum = 2
+        quantumField.setEditable(false); // quantum = 2 fixo
         quantumField.setEnabled(false);
-        quantumField.setToolTipText("Quantum fixo = 2");
+        quantumField.setToolTipText("Quantum = 2");
         configPanel.add(quantumField);
 
         JButton simulateBtn = new JButton("Simular");
@@ -147,7 +147,7 @@ public class RoundRobinApp extends JFrame {
 
             final int quantum = 2;
 
-            // Constrói a lista solicitada (P1=10, P2=5, P3=8)
+            // Constrói a lista com cenário proposto (P1=10, P2=5, P3=8)
             java.util.List<Proc> procs = new ArrayList<>();
             procs.add(new Proc("P1", 0, 10));
             procs.add(new Proc("P2", 0, 5));
@@ -266,8 +266,7 @@ public class RoundRobinApp extends JFrame {
                 // 2) Diálogo
                 JOptionPane.showMessageDialog(
                         RoundRobinApp.this,
-                        "Simulação concluída!\nTodos os processos foram finalizados em t=" + finalTime
-                                + " (" + total + " execuções)",
+                        "Simulação concluída!\nTodos os processos foram finalizados em " + total + " execuções",
                         "Finalizado",
                         JOptionPane.INFORMATION_MESSAGE
                 );
