@@ -6,6 +6,10 @@ Nós seguimos esse princípio: usamos uma interface gráfica em Java que mostra 
 
 ---
 
+<img width="1151" height="980" alt="Image" src="https://github.com/user-attachments/assets/5eaedaa2-03d8-42d7-bba9-1ba7d2855466" />
+
+---
+
 ## Ordem das execuções
 
 **Total de execuções: 12**
