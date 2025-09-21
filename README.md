@@ -6,7 +6,7 @@ Nós seguimos esse princípio: usamos uma interface gráfica em Java que mostra 
 
 ---
 
-<img width="1151" height="980" alt="Image" src="https://github.com/user-attachments/assets/5eaedaa2-03d8-42d7-bba9-1ba7d2855466" />
+<img width="1152" height="983" alt="Image" src="https://github.com/user-attachments/assets/5fe3c5fd-e1f2-493f-8d25-2596a024610b" />
 
 ---
 
