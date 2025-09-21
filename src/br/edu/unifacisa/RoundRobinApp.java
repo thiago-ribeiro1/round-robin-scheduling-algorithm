@@ -27,6 +27,10 @@ public class RoundRobinApp extends JFrame {
 
     public RoundRobinApp() {
         super("Round Robin Unifacisa");
+        
+        Image icon = Toolkit.getDefaultToolkit().getImage("assets/app-icon.png");
+        setIconImage(icon);
+
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
@@ -266,7 +270,7 @@ public class RoundRobinApp extends JFrame {
                 // 2) Diálogo
                 JOptionPane.showMessageDialog(
                         RoundRobinApp.this,
-                        "Simulação concluída!\nTodos os processos foram finalizados em " + total + " execuções",
+                        "Simulação concluída!\nTodos os processos foram finalizados em t=" + finalTime + " (" + total + " execuções)",
                         "Finalizado",
                         JOptionPane.INFORMATION_MESSAGE
                 );

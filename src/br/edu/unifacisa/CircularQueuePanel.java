@@ -22,7 +22,7 @@ public class CircularQueuePanel extends JPanel {
 
     public CircularQueuePanel() {
         // Define borda e cor de fundo do painel
-        setBorder(new TitledBorderLike("Round Robin Unifacisa"));
+        setBorder(new TitledBorderLike("Round Robin (Fila Circular)"));
         setBackground(new Color(0x0E0B1F));
     }
 
