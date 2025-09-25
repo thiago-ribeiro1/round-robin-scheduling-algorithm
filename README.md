@@ -1,8 +1,10 @@
 # Algoritmo de Escalonamento Round Robin
 
+### Projeto Acadêmico
+
 O Round Robin é um algoritmo que alterna os processos em ordem circular, dando a cada um, um tempo fixo (quantum) de uso da CPU. Ao término desse tempo, o processo é interrompido e enviado ao fim da fila, garantindo que todos tenham chance de executar sem prioridades fixas.
 
-Nós seguimos esse princípio: usamos uma interface gráfica em Java que mostra a execução de 3 processos em uma fila circular, com quantum de 2. Cada processo usa 2 unidades de tempo por vez, se não finalizar, volta para a fila até concluir. No total, são 12 execuções.
+Nós seguimos esse princípio: usamos uma interface gráfica com Java Swing, que mostra a execução de 3 processos em uma fila circular, com quantum de 2. Cada processo usa 2 unidades de tempo por vez, se não finalizar, volta para a fila até concluir. No total, são 12 execuções.
 
 ---
 
