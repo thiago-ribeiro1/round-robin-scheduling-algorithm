@@ -27,7 +27,7 @@ public class RoundRobinApp extends JFrame {
 
     public RoundRobinApp() {
         super("Round Robin Unifacisa");
-        
+
         Image icon = Toolkit.getDefaultToolkit().getImage("assets/app-icon.png");
         setIconImage(icon);
 
@@ -121,7 +121,7 @@ public class RoundRobinApp extends JFrame {
         logScroll.setBorder(new TitledBorderLike("Sequência de Execução (Gantt simplificado)"));
         logScroll.setPreferredSize(new Dimension(100, 200)); // maior para dar mais destaque
         add(logScroll, BorderLayout.SOUTH);
-
+        
         setSize(940, 800);
         setLocationRelativeTo(null);
     }

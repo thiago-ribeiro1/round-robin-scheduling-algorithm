@@ -41,7 +41,7 @@ public class RoundRobinScheduler {
             // Se o processo ainda não terminou, volta para o fim da fila
             if (p.remaining > 0) ready.offer(p);
 
-                // Se terminou, salva o tempo de conclusão
+            // Se terminou, salva o tempo de conclusão
             else p.completion = t;
         }
         // Retorna o resultado da simulação (passos + mapa de processos)
